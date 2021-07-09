@@ -34,12 +34,11 @@
         <li></li>
       </ul>
     </nav>
-    <div id="textForm">
+    <div id="icons">
+      <v-icon name="search" scale="1.3" color="#e5e5e5" />   
       <form>
         <input type="text" name="text" placeholder="Title, Actor, Genre" />
       </form>
-    </div>
-    <div id="icons">
       <v-icon name="bell" scale="1.3" color="#e5e5e5" />
       <v-icon name="user-circle" scale="2" color="#e5e5e5" />
     </div>
@@ -152,22 +151,24 @@ ul li ul li {
   width: 50%;
 }
 input[type="text"] {
-  width: 1px;
+  width: 10px;
+  margin-top: 1px;
   border: none;
   color: #e5e5e5;
-  border-bottom: 2px solid #ccc;
   font-size: 13px;
   background-color: #141414;
-  background-image: url("../assets/search.png");
   background-position: 10px 10px;
   background-repeat: no-repeat;
   padding: 12px 7px 12px 40px;
   -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
+  transition: width 0.4 ease-in-out;
+  -webkit-transition: margin-top 0.4s ease-in-out;
+  transition: margin-top 0.4 ease-in-out;
 }
 
 input[type="text"]:focus {
-  width: 100%;
+  margin-top: 5px;
+  width: 15px;
 }
 #textForm {
   width: 15%;
