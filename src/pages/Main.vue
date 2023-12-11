@@ -9,7 +9,7 @@
     <Movies typeMovie="s=game" typeDescription="Fiction" />
     <Movies typeMovie="s=brain" typeDescription="Education" />
     <Movies typeMovie="s=all" typeDescription="Family" />
-    <h4>Maxflix - Maksum Rifai</h4>
+    <h4>Maxflix - @MaxsumReevay</h4>
   </div>
 </template>
 
